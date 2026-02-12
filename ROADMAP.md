@@ -9,7 +9,7 @@
 - **Nombre:** Sombras del Umbral
 - **Género:** Metroidvania 2D
 - **Pilar Central:** Movilidad extrema y exploración no lineal
-- **Engine:** Unity (2022.3 LTS o superior recomendado)
+- **Engine:** Unity 6000.1.13f1
 - **Alcance:** Juego comercial completo
 - **Plataformas:** PC, Steam Deck, Consolas (opcional)
 
@@ -39,19 +39,19 @@
 **Descripción:** Crear proyecto Unity y configurar packages esenciales
 
 **Checklist:**
-- [ ] Crear nuevo proyecto Unity 2D (URP Template)
-- [ ] Configurar Unity 2022.3 LTS o superior
-- [ ] Instalar **Universal Render Pipeline (URP)** 2D
-- [ ] Instalar **New Input System** (Package Manager)
-- [ ] Instalar **Cinemachine** (Package Manager)
-- [ ] Instalar **2D Animation** package
-- [ ] Instalar **2D Sprite** package
-- [ ] Instalar **2D Tilemap Editor** package
-- [ ] Configurar **TextMeshPro** (importar essentials)
-- [ ] Configurar Project Settings (Physics 2D, Input, Quality)
-- [ ] Establecer Target Platform (PC, Steam Deck)
-- [ ] Configurar Build Settings (resolución, aspect ratio)
-- [ ] Crear escena base (MainMenu, GameScene)
+- [x] Crear nuevo proyecto Unity 2D (URP Template)
+- [x] Configurar Unity 6000.1.13f1
+- [x] Instalar **Universal Render Pipeline (URP)** 2D
+- [x] Instalar **New Input System** (Package Manager)
+- [x] Instalar **Cinemachine** (Package Manager)
+- [x] Instalar **2D Animation** package
+- [x] Instalar **2D Sprite** package
+- [x] Instalar **2D Tilemap Editor** package
+- [x] Configurar **TextMeshPro** (importar essentials)
+- [x] Configurar Project Settings (Physics 2D, Input, Quality)
+- [x] Establecer Target Platform (PC, Steam Deck)
+- [x] Configurar Build Settings (resolución, aspect ratio)
+- [x] Crear escena base (MainMenu, GameScene)
 
 **Dependencias:** Ninguna  
 **Prioridad:** Alta  
@@ -63,7 +63,7 @@
 **Descripción:** Definir estructura de carpetas Unity y patrones de diseño
 
 **Checklist:**
-- [ ] Crear estructura de carpetas Unity:
+- [x] Crear estructura de carpetas Unity:
   ```
   Assets/
   ├── _Project/
