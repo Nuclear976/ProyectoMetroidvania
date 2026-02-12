@@ -83,15 +83,15 @@
   │   ├── Materials/
   │   └── Tilemaps/
   ```
-- [ ] Definir convenciones de nomenclatura (PascalCase para scripts, camelCase para variables)
-- [ ] Establecer namespaces: `SombrasDelUmbral.Player`, `SombrasDelUmbral.AI`, etc.
-- [ ] Crear **GameManager** con singleton pattern (DontDestroyOnLoad)
-- [ ] Crear **EventManager** para comunicación desacoplada (UnityEvents/ScriptableObject Events)
-- [ ] Configurar **ScriptableObject** base para datos de juego
-- [ ] Crear carpeta de **Resources** para assets dinámicos
-- [ ] Configurar **Addressables** (opcional, para optimización)
-- [ ] Documentar arquitectura en README.md
-- [ ] Crear template de script con header estándar
+- [x] Definir convenciones de nomenclatura (PascalCase para scripts, camelCase para variables)
+- [x] Establecer namespaces: `SombrasDelUmbral.Player`, `SombrasDelUmbral.AI`, etc.
+- [x] Crear **GameManager** con singleton pattern (DontDestroyOnLoad)
+- [x] Crear **EventManager** para comunicación desacoplada (UnityEvents/ScriptableObject Events)
+- [x] Configurar **ScriptableObject** base para datos de juego
+- [x] Crear carpeta de **Resources** para assets dinámicos
+- [x] Configurar **Addressables** (opcional, para optimización)
+- [x] Documentar arquitectura en README.md
+- [x] Crear template de script con header estándar
 
 **Dependencias:** Tarea 1.1.1  
 **Prioridad:** Alta  

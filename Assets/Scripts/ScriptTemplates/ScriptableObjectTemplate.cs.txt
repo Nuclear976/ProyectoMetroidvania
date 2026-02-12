@@ -1,0 +1,56 @@
+using UnityEngine;
+
+namespace #NAMESPACE#
+{
+    /// <summary>
+    /// #DESCRIPTION#
+    /// </summary>
+    [CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "Sombras del Umbral/#CATEGORY#/#SCRIPTNAME#")]
+    public class #SCRIPTNAME# : ScriptableObject
+    {
+        #region Serialized Fields
+        
+        [Header("Data")]
+        [SerializeField] private string id;
+        [SerializeField] private string displayName;
+        [TextArea(3, 5)]
+        [SerializeField] private string description;
+        
+        #endregion
+        
+        #region Public Properties
+        
+        public string ID => id;
+        public string DisplayName => displayName;
+        public string Description => description;
+        
+        #endregion
+        
+        #region Validation
+        
+        public virtual bool Validate()
+        {
+            if (string.IsNullOrEmpty(id))
+            {
+                Debug.LogError($"[{name}] ID cannot be empty", this);
+                return false;
+            }
+            
+            return true;
+        }
+        
+        #endregion
+        
+#if UNITY_EDITOR
+        private void OnValidate()
+        {
+            if (string.IsNullOrEmpty(id))
+            {
+                id = name;
+            }
+            
+            Validate();
+        }
+#endif
+    }
+}

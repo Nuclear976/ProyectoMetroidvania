@@ -1,0 +1,16 @@
+{
+    "name": "SombrasDelUmbral.AI",
+    "rootNamespace": "SombrasDelUmbral.AI",
+    "references": [
+        "GUID:750bb6b510527574f8147b5a61fdf0a9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
